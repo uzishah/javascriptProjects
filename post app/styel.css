@@ -1,0 +1,125 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#00c6ff, #007bff);
+ }
+ .container{
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 12px 28px rgb(0,0,0.12);
+}
+.container  .post{
+   display: none;
+}
+.post header{
+   font-size: 22px;
+   font-weight: 600;
+   text-align: center;
+   padding: 17px 0;
+   border-bottom: 1px solid #bfbfbf;
+}
+.post form{
+   margin: 20px 25px;
+
+}
+.post form .content{
+   display: flex;
+   align-items: center;
+}
+.post form .content img{
+  width: 40px;
+  height: 40px;
+   border-radius: 50%;
+}
+.post form .content .detail{
+   margin: -3px 0 0 12px;
+}
+form .content .detail p{
+   font-size: 17px;
+   font-weight: 500;
+
+}
+.post form :where(textarea,button){
+   width: 100%;
+   outline: none;
+   border: none;
+}
+.post form  textarea{
+   resize: none;
+font-size: 18px;
+margin-top: 30px;
+min-height: 100px;
+}
+form .theme{
+   height: 57px;
+   border-radius: 7px;
+   padding: 0 15px;
+   margin: 15px 0;
+   border: 1px solid #b9b9b9;
+
+}
+.theme {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: left;
+}
+
+.theme .list {
+   display: flex;
+   gap: 60px;
+   margin-bottom: 70px;
+   list-style: none;
+   padding: 10px;
+}
+
+.theme .list li {
+   height: 42px;
+   width: 42px;
+   background-color: beige;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+form .option p {
+   font-size: 10px;
+   font-weight: 500;
+   color: #595959;
+}
+form .bg-img{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+}
+form .bg-img img{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+form button{
+   margin-top: 10px;
+   height: 53px;
+   font-size: 18px;
+   font-weight: 500;
+   border-radius: 7px;
+   color: white;
+   background: rgb(88, 88, 238);cursor: pointer;
+}
+
+
+
+
+
+
