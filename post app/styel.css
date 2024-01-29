@@ -11,15 +11,13 @@
     min-height: 100vh;
     background: linear-gradient(#00c6ff, #007bff);
  }
- .container{
+ .container  {
     width: 500px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 12px 28px rgb(0,0,0.12);
 }
-.container  .post{
-   display: none;
-}
+
 .post header{
    font-size: 22px;
    font-weight: 600;
@@ -57,7 +55,25 @@ form .content .detail p{
    resize: none;
 font-size: 18px;
 margin-top: 30px;
-min-height: 100px;
+min-height: 150px;
+height: auto;
+overflow: hidden;
+background: transparent;
+width: 100%;
+padding: 5px;
+}
+.bg-img li input[type="color"] {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   border: none;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+#text-bg{
+margin-top: 10px;
+height: auto;
 }
 form .theme{
    height: 57px;
@@ -90,6 +106,12 @@ form .theme{
    display: flex;
    justify-content: center;
    align-items: center;
+   cursor: pointer;
+}
+
+
+.afterpost{
+   display:none;
 }
 
 form .option p {
@@ -118,8 +140,6 @@ form button{
    background: rgb(88, 88, 238);cursor: pointer;
 }
 
-
-
-
+ 
 
 
